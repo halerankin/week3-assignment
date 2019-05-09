@@ -1,0 +1,32 @@
+h1 {
+  padding-left: 1em;
+}
+article:after {
+  content: '';
+  display: block;
+  height: 2px;
+  border-bottom: 1px solid #ddd;  
+  padding-bottom: 20px;
+  width: 100%;
+}
+.house {
+  padding: 1.25em;
+}
+.house h2 {
+  font-size: 1.2em;  
+}
+.house h2 sup {
+  font-size: 0.5em;;
+  text-decoration: underline;
+}
+.house img {
+  float: left;
+  height: auto;
+  padding-right: 20px;
+  width: 350px;
+}
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: table;
+}
