@@ -1,5 +1,11 @@
-h1 {
-  padding-left: 1em;
+.wrapper {
+  padding: 1.25em;
+}
+.wrapper.shopping-cart {
+  padding-bottom: 0;
+}
+.wrapper.listings {
+  padding-top: 0;
 }
 article:after {
   content: '';
@@ -9,9 +15,7 @@ article:after {
   padding-bottom: 20px;
   width: 100%;
 }
-.house {
-  padding: 1.25em;
-}
+
 .house h2 {
   font-size: 1.2em;  
 }
