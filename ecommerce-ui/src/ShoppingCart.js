@@ -1,9 +1,7 @@
 import React from 'react';
 
 export default class ShoppingCart extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+
     render() {
         const totalCost = this.props.totalCost;
         const houseList = this.props.houses.map(
